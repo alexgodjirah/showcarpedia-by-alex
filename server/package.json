@@ -4,7 +4,12 @@
     "description": "Showcarpedia by AlexGodjirah",
     "main": "index.js",
     "scripts": {
-        "start": "nodemon index.js"
+        "start": "nodemon index.js",
+        "create-db": "npx sequelize db:create",
+        "migrate-db": "npx sequelize db:migrate",
+        "unmigrate-db": "npx sequelize db:migrate:undo:all",
+        "seed-db": "npx sequelize db:seed:all",
+        "unseed-db": "npx sequelize db:seed:undo:all"
     },
     "repository": {
         "type": "git",

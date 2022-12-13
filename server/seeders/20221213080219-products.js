@@ -22,7 +22,10 @@ module.exports = {
                     kiloMeter: 1000,
                     grade: 4,
                     category: "Sport",
-                    photoProducts: [],
+                    photoProducts: [
+                        "https://cdn.discordapp.com/attachments/960564590574456852/965225077069193326/jhondoe.jpg",
+                        "https://cdn.discordapp.com/attachments/960564590574456852/965225077069193326/jhondoe.jpg",
+                    ],
                     delete: false,
                     createdAt: new Date(),
                     updatedAt: new Date(),
@@ -34,7 +37,10 @@ module.exports = {
                     kiloMeter: 24000,
                     grade: 4,
                     category: "4x4",
-                    photoProducts: [],
+                    photoProducts: [
+                        "https://cdn.discordapp.com/attachments/960564590574456852/965225077069193326/jhondoe.jpg",
+                        "https://cdn.discordapp.com/attachments/960564590574456852/965225077069193326/jhondoe.jpg",
+                    ],
                     delete: false,
                     createdAt: new Date(),
                     updatedAt: new Date(),

@@ -39,6 +39,7 @@ module.exports = {
                     model: {
                         tableName: "Users",
                         key: "id",
+                        as: "UserId",
                     },
                 },
             },

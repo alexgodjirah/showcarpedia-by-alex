@@ -37,10 +37,6 @@ module.exports = {
                 type: Sequelize.STRING,
                 allowNull: false,
             },
-            photoProducts: {
-                type: Sequelize.ARRAY,
-                allowNull: false,
-            },
             description: {
                 type: Sequelize.STRING,
                 allowNull: true,

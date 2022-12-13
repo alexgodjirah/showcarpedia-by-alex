@@ -17,7 +17,7 @@ module.exports = {
             [
                 {
                     UserId: 1,
-                    fullname: "Administrator",
+                    fullName: "Administrator",
                     birthDate: "12-13-2022",
                     city: "Surabaya",
                     country: "Indonesia",
