@@ -23,7 +23,7 @@ module.exports = (sequelize, DataTypes) => {
             kiloMeter: DataTypes.INTEGER,
             grade: DataTypes.INTEGER,
             category: DataTypes.STRING,
-            photoProducts: DataTypes.ARRAY,
+            photoProducts: DataTypes.ARRAY(DataTypes.STRING),
             description: DataTypes.STRING,
             delete: DataTypes.BOOLEAN,
         },

@@ -15,24 +15,32 @@ module.exports = {
             },
             brand: {
                 type: Sequelize.STRING,
+                allowNull: false,
             },
             year: {
                 type: Sequelize.INTEGER,
+                allowNull: false,
             },
             kiloMeter: {
                 type: Sequelize.INTEGER,
+                allowNull: false,
             },
             grade: {
                 type: Sequelize.INTEGER,
+                validate: {},
+                allowNull: false,
             },
             category: {
                 type: Sequelize.STRING,
+                allowNull: false,
             },
             photoProducts: {
                 type: Sequelize.ARRAY,
+                allowNull: false,
             },
             description: {
                 type: Sequelize.STRING,
+                allowNull: true,
             },
             delete: {
                 type: Sequelize.BOOLEAN,
