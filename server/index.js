@@ -20,6 +20,10 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(cors());
 
+app.get("/", (req, res) => {
+    res.send("hellow mf");
+});
+
 app.listen(PORT, () => {
     console.log(`Listening on port: http://localhost:${PORT}`);
 });
