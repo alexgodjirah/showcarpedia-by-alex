@@ -1,3 +1,5 @@
+## Models + Migrations
+
 <!-- User -->
 
 `npx sequelize-cli model:generate --name User --attributes username:string,email:string,password:string,role:enum,delete:boolean`
@@ -17,3 +19,11 @@
 <!-- About -->
 
 `npx sequelize-cli model:generate --name About --attributes title:string,content:string`
+
+## Seed
+
+`npx sequelize-cli seed:generate --name user`
+`npx sequelize-cli seed:generate --name profile`
+`npx sequelize-cli seed:generate --name product`
+`npx sequelize-cli seed:generate --name about`
+`npx sequelize-cli seed:generate --name wishlist`
