@@ -1,6 +1,10 @@
 const express = require("express");
 const cors = require("cors");
 
+// Router
+const router = require("./routes");
+
+// Server App + Port
 const app = express();
 const PORT = 8000 || process.env.PORT;
 
@@ -19,10 +23,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors());
-
-app.get("/", (req, res) => {
-    res.send("hellow mf");
-});
+app.use(router);
 
 app.listen(PORT, () => {
     console.log(`Listening on port: http://localhost:${PORT}`);
